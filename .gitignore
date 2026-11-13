@@ -1,0 +1,34 @@
+# Compiled artifacts stay beside the sources locally.
+/src/futurism
+*.o
+*.so
+*.so.*
+*.a
+*.d
+
+# CMake / Python build products
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+
+# Datasets, experiment outputs and profiler artifacts
+*.csv
+*.log
+*.ncu-rep
+*.nsys-rep
+*.qdrep
+NCU_LOG*/
+Power_metric/
+output*/
+results/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store

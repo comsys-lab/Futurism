@@ -1,0 +1,341 @@
+{
+  "method": "Byte/line comparison of all 16 published source/build files before provenance notices; line matches are textual evidence, not an authorship or ownership percentage.",
+  "references": {
+    "kubism": {
+      "repository": "comsys-lab/Kubism",
+      "commit": "0575f83773d7a37afdee967e50a394da3fcec267",
+      "commit_date": "2025-07-14T12:16:04Z"
+    },
+    "kmcuda": {
+      "repository": "src-d/kmcuda",
+      "commit": "7dcd28c49a6c76bb9c5e1b19c23976a1f76e1b3b",
+      "commit_date": "2022-10-11T16:58:55Z"
+    }
+  },
+  "futurism_base_commit": "8abb12cab22310fe4b96cbd4f8e04bc02a61b898",
+  "kubism_is_ancestor_of_futurism_base": true,
+  "files": [
+    {
+      "file": "src/CMakeLists.txt",
+      "futurism_sha256": "c1fa621172dfee22493fa0e3344ae00ea2ed5b2223433d6d5b9c299bee8d5dc9",
+      "lines": 29,
+      "comparisons": {
+        "kubism": {
+          "status": "different",
+          "reference_lines": 105,
+          "matching_lines": 5,
+          "reference_sha256": "16f3681a59d7fa0fe88eb13e35562b4d379ec1e9dcace1cf0287b2a90d01588b"
+        },
+        "kmcuda": {
+          "status": "different",
+          "reference_lines": 78,
+          "matching_lines": 2,
+          "reference_sha256": "77681aca40d22e4c900f7fd8a35d94f5696e974787d5a1a9613459e85b9ce837"
+        }
+      },
+      "notice_added": true,
+      "published_sha256": "5d9eb505b8bc2e5c0e5ab86c8f530d15ba337a15f82f578589b3d154cb9b0092"
+    },
+    {
+      "file": "src/fp_abstraction.h",
+      "futurism_sha256": "9e5cf3fd5a8107425074e40ccd70b10caef96b265b00d362707ee9cf113bc757",
+      "lines": 188,
+      "comparisons": {
+        "kubism": {
+          "status": "identical",
+          "reference_lines": 188,
+          "matching_lines": 188,
+          "reference_sha256": "9e5cf3fd5a8107425074e40ccd70b10caef96b265b00d362707ee9cf113bc757"
+        },
+        "kmcuda": {
+          "status": "different",
+          "reference_lines": 184,
+          "matching_lines": 184,
+          "reference_sha256": "95e3356c910392117b5e1f482dca0fabac3a9909fd9d61cfa8209068aa3fb864"
+        }
+      },
+      "notice_added": true,
+      "published_sha256": "90465429a1a805d97141d064ebc80de5e0ba47a9d50f7ca3d81d178e13ce4c8d"
+    },
+    {
+      "file": "src/kmcuda.cc",
+      "futurism_sha256": "2e0a782eaf0d91db30719a8f5c465f5b880126167c3ae9bee044638cc17344d9",
+      "lines": 772,
+      "comparisons": {
+        "kubism": {
+          "status": "different",
+          "reference_lines": 762,
+          "matching_lines": 761,
+          "reference_sha256": "22a0c64c10093e6e6a276c0771042d084c1a723d3aac324d8d80cbc397940f89"
+        },
+        "kmcuda": {
+          "status": "different",
+          "reference_lines": 732,
+          "matching_lines": 693,
+          "reference_sha256": "ac9750735ac1183d6fc8a526db3dd4f311656db68d33bd2a610990a246fea54e"
+        }
+      },
+      "notice_added": true,
+      "published_sha256": "51d9624c87a9b83916946c10ca0e4075d1a768fa6432ff0edbb4567284226d1b"
+    },
+    {
+      "file": "src/kmcuda.h",
+      "futurism_sha256": "471732e64679cccecfe8ee4960846352784e9446e2b4e31ca0a4f893e82a1cdc",
+      "lines": 199,
+      "comparisons": {
+        "kubism": {
+          "status": "identical",
+          "reference_lines": 199,
+          "matching_lines": 199,
+          "reference_sha256": "471732e64679cccecfe8ee4960846352784e9446e2b4e31ca0a4f893e82a1cdc"
+        },
+        "kmcuda": {
+          "status": "identical",
+          "reference_lines": 199,
+          "matching_lines": 199,
+          "reference_sha256": "471732e64679cccecfe8ee4960846352784e9446e2b4e31ca0a4f893e82a1cdc"
+        }
+      },
+      "notice_added": false,
+      "published_sha256": "471732e64679cccecfe8ee4960846352784e9446e2b4e31ca0a4f893e82a1cdc"
+    },
+    {
+      "file": "src/kmeans.cu",
+      "futurism_sha256": "800d093440bdc6d53507e895c62398325be9e1c8963de922ca4459cac84274fa",
+      "lines": 2663,
+      "comparisons": {
+        "kubism": {
+          "status": "different",
+          "reference_lines": 2470,
+          "matching_lines": 1829,
+          "reference_sha256": "7278090d7d230026e53ba333142ece9e214a19ae141cb0771f8081f138296767"
+        },
+        "kmcuda": {
+          "status": "different",
+          "reference_lines": 1302,
+          "matching_lines": 1092,
+          "reference_sha256": "89f8c2cf35647287cf7ef23ab0b39c21d2f2a2f823163083b3fe9309fc2f388c"
+        }
+      },
+      "notice_added": true,
+      "published_sha256": "81c93983a8857c43dcad2aad1f8fe98a9616887fc8db9a52620c0d5b11cb0eab"
+    },
+    {
+      "file": "src/kmeans_cpu.cc",
+      "futurism_sha256": "253fdd3128ed0c66568e7fc6e19e7a352909e146c67d07031511ea19c553be5f",
+      "lines": 520,
+      "comparisons": {
+        "kubism": {
+          "status": "different",
+          "reference_lines": 259,
+          "matching_lines": 232,
+          "reference_sha256": "2559e05de7649e511c35caff51c614e750325cfb973082c60c0a2c0e1e3e34a5"
+        },
+        "kmcuda": {
+          "status": "absent"
+        }
+      },
+      "notice_added": true,
+      "published_sha256": "cd63203c4fd5d10ec439d173de8ae6cf85504bf8ffcbf1b60585c5d029840495"
+    },
+    {
+      "file": "src/kmeans_cpu.h",
+      "futurism_sha256": "19baa8a7a0b4efdbc92ee1f32229ff8ff94950d12c2030329fc0e77fd73c35a7",
+      "lines": 97,
+      "comparisons": {
+        "kubism": {
+          "status": "different",
+          "reference_lines": 67,
+          "matching_lines": 61,
+          "reference_sha256": "c5479edc58d02cb7cb78137f9d57a2446748f8e3bb39e4342b2d9e49c990988c"
+        },
+        "kmcuda": {
+          "status": "absent"
+        }
+      },
+      "notice_added": true,
+      "published_sha256": "c3b4e3809a9614376fe61b6ca21b05ede401b0d2834f5adbf02a1a87d90e8984"
+    },
+    {
+      "file": "src/knn.cu",
+      "futurism_sha256": "746b9a8d1e20e1021247b1eec366e1ebeaa3fab97606bfc10f589dcfee772f7d",
+      "lines": 534,
+      "comparisons": {
+        "kubism": {
+          "status": "identical",
+          "reference_lines": 534,
+          "matching_lines": 534,
+          "reference_sha256": "746b9a8d1e20e1021247b1eec366e1ebeaa3fab97606bfc10f589dcfee772f7d"
+        },
+        "kmcuda": {
+          "status": "identical",
+          "reference_lines": 534,
+          "matching_lines": 534,
+          "reference_sha256": "746b9a8d1e20e1021247b1eec366e1ebeaa3fab97606bfc10f589dcfee772f7d"
+        }
+      },
+      "notice_added": false,
+      "published_sha256": "746b9a8d1e20e1021247b1eec366e1ebeaa3fab97606bfc10f589dcfee772f7d"
+    },
+    {
+      "file": "src/metric_abstraction.h",
+      "futurism_sha256": "1052865666568a7e32917a8ff92cced00049994447dae223f547942c2a8bfff9",
+      "lines": 317,
+      "comparisons": {
+        "kubism": {
+          "status": "identical",
+          "reference_lines": 317,
+          "matching_lines": 317,
+          "reference_sha256": "1052865666568a7e32917a8ff92cced00049994447dae223f547942c2a8bfff9"
+        },
+        "kmcuda": {
+          "status": "different",
+          "reference_lines": 305,
+          "matching_lines": 301,
+          "reference_sha256": "4798d223f363784244f8a3c8da6f4535c9d8e1f845ec56225d295f15ea8ef0d3"
+        }
+      },
+      "notice_added": true,
+      "published_sha256": "66d992c11156bae1f9503745f3b45cf489d0c9be43f48cdec40939fc3ef6e51f"
+    },
+    {
+      "file": "src/power_metrics.h",
+      "futurism_sha256": "87f32728109e85684a3c5e119bc1eeba7eaca3e3287811521da89a82231fd03e",
+      "lines": 17,
+      "comparisons": {
+        "kubism": {
+          "status": "absent"
+        },
+        "kmcuda": {
+          "status": "absent"
+        }
+      },
+      "notice_added": true,
+      "published_sha256": "61ec084dd12c9a783441098f2a75ba343fcfeee0802f9693ae1e2de9e7f29899"
+    },
+    {
+      "file": "src/private.h",
+      "futurism_sha256": "9bc12911f4b66f4105c7fa57940070e856bff4c70b16f8f5400e4124986c5f0e",
+      "lines": 422,
+      "comparisons": {
+        "kubism": {
+          "status": "different",
+          "reference_lines": 412,
+          "matching_lines": 410,
+          "reference_sha256": "c1e237a2f04344fd086fb01a875caf2bddabbc1691593c72bd21466f047e516a"
+        },
+        "kmcuda": {
+          "status": "different",
+          "reference_lines": 406,
+          "matching_lines": 402,
+          "reference_sha256": "e774e6bf38153cdd723c89505f55ecc5ccdd33ef919bb3cc866f867821c6a3d8"
+        }
+      },
+      "notice_added": true,
+      "published_sha256": "c134bbb4a7d794027ab18d22c5f4cff35bc3e9dfda4ddd273fb804962424c1b7"
+    },
+    {
+      "file": "src/read_input.c",
+      "futurism_sha256": "c7add7371b23433d85930a0e05ce303802aaf15b96f9139dd82134e31fdfeddf",
+      "lines": 148,
+      "comparisons": {
+        "kubism": {
+          "status": "different",
+          "reference_lines": 145,
+          "matching_lines": 145,
+          "reference_sha256": "022b9e0548c6741a79bed18156ecd9a021a699a6a496bbb9aa98bf4972f0dcd9"
+        },
+        "kmcuda": {
+          "status": "absent"
+        }
+      },
+      "notice_added": true,
+      "published_sha256": "ae3e61b99c8156e63c39106e687f5bf925e6dfeef6fafae897ca290d1d6fbfcb"
+    },
+    {
+      "file": "src/setup.py",
+      "futurism_sha256": "d675e435dc319c7929216fdddc1d82086fc99cddc381d9ca31d849068d0eae16",
+      "lines": 52,
+      "comparisons": {
+        "kubism": {
+          "status": "different",
+          "reference_lines": 114,
+          "matching_lines": 11,
+          "reference_sha256": "23d1c6257506d6755077cd006ab16b47dc7b47ca736061b5fdf29f30521560e7"
+        },
+        "kmcuda": {
+          "status": "different",
+          "reference_lines": 113,
+          "matching_lines": 11,
+          "reference_sha256": "c222c1b9457edb77aeadeec812f42c7e4110851e17dbbdf881db7f069b910af8"
+        }
+      },
+      "notice_added": true,
+      "published_sha256": "dfe42f14cc27a4251b0d5a2b7ca651f7c10f01e6311d6b17561b708ab110ee61"
+    },
+    {
+      "file": "src/transpose.cu",
+      "futurism_sha256": "8e4a662f7e953e3048efcff5a207d33645b90eee4bb1ac3befeeb3d97d085e71",
+      "lines": 119,
+      "comparisons": {
+        "kubism": {
+          "status": "identical",
+          "reference_lines": 119,
+          "matching_lines": 119,
+          "reference_sha256": "8e4a662f7e953e3048efcff5a207d33645b90eee4bb1ac3befeeb3d97d085e71"
+        },
+        "kmcuda": {
+          "status": "different",
+          "reference_lines": 119,
+          "matching_lines": 116,
+          "reference_sha256": "b332ceadfdf4c724eda74f5041c283444830f09d988ab532913a0a2b426340e9"
+        }
+      },
+      "notice_added": true,
+      "published_sha256": "cee04452358a1ef5dcf778c5ae9d5fbb40683e563d797b1a8dd1364553529110"
+    },
+    {
+      "file": "src/tricks.cuh",
+      "futurism_sha256": "830db167301a5c6258fa591d06cd6b1c120f92ad4f3abcdf250358ecced67f85",
+      "lines": 74,
+      "comparisons": {
+        "kubism": {
+          "status": "identical",
+          "reference_lines": 74,
+          "matching_lines": 74,
+          "reference_sha256": "830db167301a5c6258fa591d06cd6b1c120f92ad4f3abcdf250358ecced67f85"
+        },
+        "kmcuda": {
+          "status": "identical",
+          "reference_lines": 74,
+          "matching_lines": 74,
+          "reference_sha256": "830db167301a5c6258fa591d06cd6b1c120f92ad4f3abcdf250358ecced67f85"
+        }
+      },
+      "notice_added": false,
+      "published_sha256": "830db167301a5c6258fa591d06cd6b1c120f92ad4f3abcdf250358ecced67f85"
+    },
+    {
+      "file": "src/wrappers.h",
+      "futurism_sha256": "cb5f555c40e3ea9c28722c4aaec1be1fbe84eeba9cf89aa92ca919828c3dc408",
+      "lines": 29,
+      "comparisons": {
+        "kubism": {
+          "status": "identical",
+          "reference_lines": 29,
+          "matching_lines": 29,
+          "reference_sha256": "cb5f555c40e3ea9c28722c4aaec1be1fbe84eeba9cf89aa92ca919828c3dc408"
+        },
+        "kmcuda": {
+          "status": "identical",
+          "reference_lines": 29,
+          "matching_lines": 29,
+          "reference_sha256": "cb5f555c40e3ea9c28722c4aaec1be1fbe84eeba9cf89aa92ca919828c3dc408"
+        }
+      },
+      "notice_added": false,
+      "published_sha256": "cb5f555c40e3ea9c28722c4aaec1be1fbe84eeba9cf89aa92ca919828c3dc408"
+    }
+  ],
+  "publication_note": "Published hashes include the subsequent one-line Jaehyeok-Ryu modifier credit in kmeans.cu, kmeans_cpu.cc and kmeans_cpu.h. Reference and pre-notice hashes are unchanged."
+}

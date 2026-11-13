@@ -1,0 +1,14 @@
+Futurism source provenance
+
+This distribution contains code from KMCUDA, inherited through Kubism,
+and subsequent modifications made during Futurism development.
+
+KMCUDA: https://github.com/src-d/kmcuda
+Kubism: https://github.com/comsys-lab/Kubism
+
+The original Kubism headers in kmeans_cpu.cc, kmeans_cpu.h and read_input.c
+credit "Implemented by: Seondeok Kim". Those existing credits are retained.
+
+KMCUDA's Apache 2.0 license text is included in LICENSE.md.
+Existing source credits and modification notices are retained.
+See docs/PROVENANCE.md for source versions and the changes made in Futurism.
