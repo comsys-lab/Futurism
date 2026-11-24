@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Futurism is a K-means clustering framework that uses both CPUs and GPUs on mobile platforms.
+K-means clustering framework that uses both CPUs and GPUs on mobile platforms.
 
 ## Quick Start
 
